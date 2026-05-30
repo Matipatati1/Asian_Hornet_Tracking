@@ -2,6 +2,8 @@
 
 A computer vision pipeline for tracking Asian hornets (*Vespa velutina*) in video footage and inferring the direction of their nest. Hornets are detected with a fine-tuned YOLO model, followed by a multi-stage tracking system that bridges detection gaps with a GMM-based fallback and ultimately computes an **exit vector** this is the mean direction hornets fly when leaving the camera's field of view.
 
+![Example output frame](image/foto_tracking.png)
+
 ---
 
 ## How it works
