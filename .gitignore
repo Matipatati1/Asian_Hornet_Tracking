@@ -1,0 +1,6 @@
+analysis/ground_truth
+analysis/output_figures
+analysis/__pycache__
+tracker/__pycache__
+tracker/models
+tracker/results

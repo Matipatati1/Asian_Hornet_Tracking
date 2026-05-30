@@ -1,0 +1,13 @@
+rank,run_name,run_path,model,data,epochs_cfg,last_epoch,imgsz,batch,optimizer,lr0,weight_decay,metric_map50,metric_map50-95,metric_precision,metric_recall,metric_fitness
+1,train3,models\train3,yolo11l.pt,/home/student/Documents/matthias/all_combined_with_hardnegatives.v1i.yolov8/data.yaml,40,40,640,16,auto,0.01,0.0005,0.92662,0.60511,0.88464,0.87267,0.637261
+2,train11,models\train11,yolo12s.pt,/home/student/Documents/matthias/all_combined_with_hardnegatives.v1i.yolov8/data.yaml,150,79,960,4,auto,0.01,0.0005,0.92382,0.59404,0.89257,0.86507,0.627018
+3,train2,models\train2,yolo11s.pt,/home/student/Documents/matthias/all_combined_with_hardnegatives.v1i.yolov8/data.yaml,40,40,640,16,auto,0.01,0.0005,0.91689,0.58486,0.8901,0.85582,0.618063
+4,train9,models\train9,yolo11s.pt,/home/student/Documents/matthias/all_combined_with_hardnegatives.v1_imp.yolov8/data.yaml,150,150,960,4,auto,0.01,0.0005,0.92386,0.57896,0.9067,0.88244,0.61345
+5,train14,models\train14,rtdetr-l.pt,/home/student/Documents/matthias/last/all_combined_with_hardnegatives.v3i.yolov8/data.yaml,100,84,640,4,auto,0.01,0.0005,0.85953,0.53587,0.87138,0.87726,0.568236
+6,train12,models\train12,rtdetr-l.pt,/home/student/Documents/matthias/last/all_combined_with_hardnegatives.v3i.yolov8/data.yaml,100,40,640,4,auto,0.01,0.0005,0.85384,0.53255,0.84725,0.86825,0.564679
+7,train16,models\train16,yolo11s.pt,/home/student/Documents/matthias/all_combined_with_hardnegatives.v1i.yolov8/data.yaml,150,122,960,4,AdamW,0.001,0.0005,0.8772,0.53213,0.90128,0.81628,0.566637
+8,train15,models\train15,rtdetr-l.pt,/home/student/Documents/matthias/all_combined_with_hardnegatives.v1i.yolov8/data.yaml,100,51,640,4,auto,0.01,0.0005,0.84915,0.52621,0.86437,0.83669,0.558504
+9,train8,models\train8,yolo11m.pt,/home/student/Documents/matthias/all_combined_with_hardnegatives.v1_imp.yolov8/data.yaml,150,105,640,4,AdamW,0.0003,0.0005,0.78629,0.48734,0.82286,0.76139,0.517235
+10,train13,models\train13,rtdetr-l.pt,/home/student/Documents/matthias/last/all_combined_with_hardnegatives.v3i.yolov8/data.yaml,100,6,960,16,auto,0.01,0.0005,0.67369,0.37883,0.79799,0.68448,0.408316
+11,train5,models\train5,yolo11m.pt,/home/student/Documents/matthias/all_combined_with_hardnegatives.v1_imp.yolov8/data.yaml,150,6,1280,4,AdamW,0.001,0.0005,0.35278,0.13443,0.50119,0.33869,0.156265
+12,train7,models\train7,yolo11m.pt,/home/student/Documents/matthias/all_combined_with_hardnegatives.v1_imp.yolov8/data.yaml,150,19,1280,2,AdamW,0.001,0.0005,0.0,0.0,0.0,0.0004,nan
